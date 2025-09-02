@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-<section id="buttons">
-  <button class="btn" id="applause">Applause</button>
-  <button class="btn" id="boo">Boo</button>
-  <button class="btn" id="gasp">Gasp</button>
-  <button class="btn" id="tada">Tada</button>
-  <button class="btn" id="victory">Victory</button>
-  <button class="btn" id="wrong">Wrong</button>
-  <button class="stop" id="stop">Stop</button>
-</section>
+  <!-- The body contains buttons and the audio elements -->
+  <section id="buttons">
+    <button class="btn" id="applause">Applause</button>
+    <button class="btn" id="boo">Boo</button>
+    <button class="btn" id="gasp">Gasp</button>
+    <button class="btn" id="tada">Tada</button>
+    <button class="btn" id="victory">Victory</button>
+    <button class="btn" id="wrong">Wrong</button>
+    <button class="stop" id="stop">Stop</button>
+  </section>
 
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Add audio elements directly in HTML, using the provided GitHub URL -->
+  <audio id="applauseAudio">
+    <source src="https://github.com/acciojob/Soundbar-rhk998/raw/master/sounds/applause.mp3" type="audio/mp3">
+  </audio>
 
+  <audio id="booAudio">
+    <source src="https://github.com/acciojob/Soundbar-rhk998/raw/master/sounds/boo.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="gaspAudio">
+    <source src="https://github.com/acciojob/Soundbar-rhk998/raw/master/sounds/gasp.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="tadaAudio">
+    <source src="https://github.com/acciojob/Soundbar-rhk998/raw/master/sounds/tada.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="victoryAudio">
+    <source src="https://github.com/acciojob/Soundbar-rhk998/raw/master/sounds/victory.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="wrongAudio">
+    <source src="https://github.com/acciojob/Soundbar-rhk998/raw/master/sounds/wrong.mp3" type="audio/mp3">
+  </audio>
+
+  <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>

@@ -23,7 +23,6 @@ victoryButton.addEventListener('click', () => victory.play());
 wrongButton.addEventListener('click', () => wrong.play());
 
 function stopSounds() {
-  console.log("Stopping all sounds...");
   applause.pause();
   boo.pause();
   gasp.pause();
