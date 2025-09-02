@@ -22,4 +22,14 @@ tadaButton.addEventListener('click', () => tada.play());
 victoryButton.addEventListener('click', () => victory.play());
 wrongButton.addEventListener('click', () => wrong.play());
 
+function stopSounds() {
+  console.log("Stopping all sounds...");
+  applause.pause();
+  boo.pause();
+  gasp.pause();
+  tada.pause();
+  victory.pause();
+  wrong.pause();
+}
+
 stopButton.addEventListener('click', stopSounds);
