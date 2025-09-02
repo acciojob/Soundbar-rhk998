@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7c4dff; 
+  padding: 80px;
+}
+.btn,.stop{
+  background-color: #7b1fa2; /* Button background color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;	
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.stop {
+  background-color: #7b1fa2; /* Red for the stop button */
+}
